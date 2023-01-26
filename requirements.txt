@@ -1,4 +1,3 @@
-streamlit
-nltk
-spacy
-Pandas
+streamlit==0.61.0
+nltk==3.5
+otra-biblioteca==1.2.3
