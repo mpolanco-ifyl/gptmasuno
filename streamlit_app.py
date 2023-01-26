@@ -1,13 +1,12 @@
 import streamlit as st
 import nltk
-st.write('Please use the NLTK Downloader to obtain the resource:')
-nltk.download('punkt')
 import spacy
 from spacy.lang.en import English
 from spacy.lang.en.stop_words import STOP_WORDS
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 import pandas as pd
+
 
 # Create a text box
 text_input = st.text_input('Enter your text here:')
