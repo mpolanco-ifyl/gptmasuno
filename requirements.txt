@@ -2,3 +2,4 @@ streamlit
 nltk
 spacy
 Pandas
+punkt
